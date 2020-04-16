@@ -1,0 +1,14 @@
+[
+  {"nombre": "Html 5, Css3, Javascript para principiantes", "profesor": "Juan Pedro", "img": "img/curso1.jpg", "precio": "$20"},
+  {"nombre": "Huerto en casa", "profesor": "Juana Garcia", "img": "img/curso4.jpg", "precio":"$20"},
+  {"nombre": "Html 5, CSS3, Javascript y Angular 8", "profesor": "Juan Pedro", "img": "img/curso1.jpg", "precio":"$20"},
+  {"nombre": "Curso de comida vegana", "profesor": "Victor Mendoza", "img": "img/curso2.jpg", "precio":"$20"},
+  {"nombre": "Guitarra para principiantes", "profesor": "Miguel Garcia", "img": "img/curso3.jpg", "precio":"$20"},
+  {"nombre": "Huerto en casa III", "profesor": "Juana Garcia", "img": "img/curso4.jpg", "precio":"$20"},
+  {"nombre": "Comida Peruana", "profesor": "Juan Loayza", "img": "img/curso2.jpg", "precio":"$20"},
+  {"nombre": "Curso de comida vegetariana", "profesor": "Victor Mendoza", "img": "img/curso2.jpg", "precio":"$20"},
+  {"nombre": "Guitarra para ganadores", "profesor": "Miguel Garcia", "img": "img/curso3.jpg", "precio":"$20"},
+  {"nombre": "Huerto en casa II", "profesor": "Juana Garcia", "img": "img/curso4.jpg", "precio":"$20"},
+  {"nombre": "Html 5, CSS3, Javascript y React", "profesor": "Juan Pedro", "img": "img/curso1.jpg", "precio":"$20"},
+  {"nombre": "Curso de comida italiana", "profesor": "Victor Mendoza", "img": "img/curso2.jpg", "precio":"$20"}
+]

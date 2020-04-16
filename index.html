@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Universidad</title>
+  <!-- BOOTSTRAP 4 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light p-0">
+    <a class="navbar-brand m-0" href="#"><img src="img/logo.jpg" alt="logo"></a>
+    <button class="navbar-toggler menu-hamburger p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active mr-3">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mr-3">
+         <a class="nav-link"  href="#">Cursos</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="#">Instructores</a>
+        </li>
+        <li class="nav-item dropdown mr-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="img/cart.png"></a>
+          <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdownMenuLink">
+            <div class="container-original">
+              <ul class="p-0"></ul>
+
+              <button type="button" class="btn mt-2 btn-bg text-white font-weight-bolder col-12 btn-sm" id="vaciarCarrito">Vaciar el carrito</button>
+             </div> 
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar -->
+  <!-- view -->
+  <div class="view h-75">
+    <div class="container-fluid m-0 p-0 d-flex align-items-center h-100 conteiner-titulo">
+      <div class="container m-0 p-0  d-flex justify-content-star">
+        <div class="h-50">
+          <h1 class="text-white titulo">Aprende algo nuevo</h1>
+          <span class="font-weight-light text-white">Todos los cursos a $20 </span>
+          <br/>
+
+        <div class="input-group mt-4">
+          <div class="input-group-prepend">
+            <button class="btn btn-bg " type="button" id="button-addon1"><img src="img/lupa.png" alt="lupa"></button>
+          </div>
+          <input type="text" class="form-control" placeholder="¿Que te gustaría aprender?" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        </div>
+      </div>
+      <br/>
+    </div>
+
+  <!--barra -->
+    <div class="container-fluid container-bg container-barra p-0">
+      <div class="conteiner">
+        <div class="row p-3 m-0">
+          <div class="col-lg-4 col-sm-12 text-center text-white font-weight-normal p-0">
+            <span>
+             <img src="img/icono1.png" alt="foco"> <br/> 
+              Instructores Expertos <br/>
+              Aprende con distintos estilos
+            </span>
+          </div>
+  
+          <div class="col-lg-4 vol-sm-12 p-0 text-center text-white font-weight-normal pt-2">
+           <span>
+            <img src="img/icono2.png" alt="enfocar"> <br/>
+            Acceso de por vida <br/>
+            Aprende a tu ritmo
+           </span> 
+          </div>
+
+          <div class="col-lg-4 col-sm-12 p-0 text-center text-white font-weight-normal pt-2">
+            <span>
+              <img src="img/icono3.png" alt="reloj"> <br/>
+              20,000 Cursos en línea <br/>
+              Explora los temas más recientes
+            </span>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- end barra -->
+
+    <!-- cursos -->
+    <main class="mt-5" id="list-courses">
+     
+      <div class="h-100 container-courses">
+        <section id="courses">
+          <h1 class="text-center mb-4">Cursos en Línea</h1>
+
+        </section>
+      </div>
+    </main>
+    <div class="container-fluid container-bg mt-5 p-3">
+      <footer>
+       <div class="row container-courses">
+         <div class="col-lg-6 col-sm-6 col-12 mt-2">
+           <ul class="p-0">
+             <li class="mb-1"><a href="#">Para tu negocio</a></li>
+             <li class="mb-1"><a href="#/">Conviertete en instructor</a></li>
+             <li class="mb-1"><a href="#">Aplicaciones móviles</a></li>
+             <li class="mb-1"><a href="#">Soporte tecnico</a></li>
+             <li class="mb-1"><a href="#">Temas</a></li>
+           </ul>
+         </div>
+         <div class="col-lg-6 col-12 col-sm-6 d-flex justify-content-sm-center mt-2">
+          <ul class="p-0">
+            <li class="mb-0"><a href="#">¿Quienes somos?</a></li>
+            <li class="mb-0"><a href="#/">Empleo</a></li>
+            <li class="mb-0"><a href="#">Blog</a></li>
+          </ul>
+         </div>
+       </div>
+      </footer>
+  
+    </div>
+  </div> 
+  <!-- end view -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
